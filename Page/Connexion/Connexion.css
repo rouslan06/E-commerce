@@ -1,0 +1,101 @@
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    height: 310px;
+}
+
+input {
+    margin-bottom: 10px;
+    zoom: 130%;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(196, 196, 196);
+}
+
+#formulaire input:last-child {
+    width: 208px;
+    background-color: white;
+}
+
+input:hover {
+    background-color: rgb(26, 155, 194);
+}
+
+#formulaire input:last-child:hover {
+    background-color: green;
+}
+
+#menu {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu {
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+    background-color: rgb(196, 196, 196);
+    zoom: 100%;
+}
+
+#footer {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+#Copyright {
+    font-weight: bold;
+    margin: auto;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 400px;
+}
+
+#nonRempli {
+    text-align: center;
+}
+
+#pp {
+    margin-top: 0px;
+}
+
+#envoyer {
+    margin-top: 4px;
+}
+
+#message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#status {
+    text-align: center;
+}
