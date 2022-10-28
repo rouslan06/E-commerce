@@ -31,8 +31,10 @@
                 </form>
             ";
 
-            footer();
+        ?>
 
+        <?php
+            footer();
         ?>
 
     </body>

@@ -41,11 +41,11 @@
                 else {
 
                     echo "
-                        <br> <br> <br> <br> <br>
+                        <br> <br> <br> <br> <br> <br>
 
-                        <p id='status'>Connecté</p>
+                        <p id='status'>Vous êtes connecté</p>
 
-                        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                        <br> <br> <br> <br> <br> <br> <br> <br> <br>
                     ";
 
                 }
