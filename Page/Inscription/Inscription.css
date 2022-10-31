@@ -159,3 +159,7 @@ input:hover {
     }
 }
 
+#copyright {
+    margin-top: -35px;
+    text-align: center;
+}

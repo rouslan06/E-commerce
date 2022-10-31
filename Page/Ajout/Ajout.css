@@ -1,3 +1,41 @@
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    height: 310px;
+}
+
+input {
+    margin-bottom: 10px;
+    zoom: 130%;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(196, 196, 196);
+}
+
+#formulaire input:last-child {
+    width: 208px;
+    background-color: white;
+}
+
+input:hover {
+    background-color: rgb(26, 155, 194);
+}
+
+#formulaire input:last-child:hover {
+    background-color: green;
+}
+
+#teapot {
+    text-align: center;
+}
+
 #menu {
     border: 2px solid black;
     display: flex;
@@ -16,27 +54,7 @@
     border-radius: 3px;
     height: 30px;
     background-color: rgb(196, 196, 196);
-}
-
-.menu:hover {
-    background-color: rgb(26, 155, 194);
-}
-
-#center {
-    text-align: center;
-}
-
-#formulaire {
-    display: flex;
-    flex-direction: column;
-    width: 408px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    height: 310px;
+    zoom: 100%;
 }
 
 #Copyright {
@@ -44,25 +62,40 @@
     margin: auto;
 }
 
-#recherche {
+#form {
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
-    border-radius: 5px;
-    width: 260px;
-    background-color: rgb(233, 233, 233);
+    width: 270px;
+    height: 400px;
 }
 
-#recherche:hover {
-    background-color: rgb(26, 155, 194);
+#nonRempli {
+    text-align: center;
 }
 
-#scroll {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    border: 2px solid black;
-    margin-top: 10px;
-    border-radius: 5px;
+#pp {
+    margin-top: 0px;
+}
+
+#creer {
+    margin-top: 7px;
+}
+
+#message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#file {
+    width: 208px;
+}
+
+.photoCenter {
+    margin: auto;
+}
+
+.profileCenter {
     text-align: center;
 }
 
@@ -124,20 +157,6 @@
     100% {
       transform: translate3d(85px, 0, 0);
     }
-}
-
-#actionRecherche {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#trouve {
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-#trouve:hover {
-    background-color: green;
 }
 
 #copyright {

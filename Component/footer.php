@@ -28,6 +28,8 @@
                 </g>
             </svg>
         </div>  
+
+        <h3 id='copyright'>@Copyright Rouslan ABAEV</h3>
         
         <?php
             }

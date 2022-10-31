@@ -104,3 +104,8 @@
       transform: translate3d(85px, 0, 0);
     }
 }
+
+#copyright {
+    margin-top: -35px;
+    text-align: center;
+}
