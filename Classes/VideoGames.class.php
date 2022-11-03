@@ -26,8 +26,10 @@
         }
         //----------------------------------------------------
         public function setAgeMinimum($age) {
-            if ($age < $ageMinimum) {
-                $this->ageMinimum = $ageMinimum;
+            if ($age > $this->$ageMinimum) {
+                return "Tu as le droit d'acheter le jeu";
+            } else {
+                return "Tu es trop jeune pour acheter le jeu";
             }
         }
         //----------------------------------------------------

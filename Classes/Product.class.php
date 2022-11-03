@@ -1,5 +1,7 @@
 <?php
-    class Product {
+    require_once __DIR__."/IProduct.interface.php";
+
+    abstract class Product implements IProduct {
 
         public int $prixHT;
         public int $TVA = 20;

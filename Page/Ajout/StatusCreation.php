@@ -108,7 +108,7 @@
         <br>
         
         <?php
-            var_dump($produit);
+            //var_dump($produit);
         ?>
             
     </body>
