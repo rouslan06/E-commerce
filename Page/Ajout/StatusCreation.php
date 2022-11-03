@@ -21,7 +21,6 @@
             menu2();
         ?>
         
-
         <section id="formulaire">
             <?php
 
@@ -30,17 +29,20 @@
 
                     // On verifie qu'on as bien mis le nom dans le formulaire
                     if ($_POST["nom"] != null) {
-                    // On INSTANCIE notre nouveau produit, en récupérant ce qu'on as mis dans le formulaire a l'aide de POST
-                    $produit = new Product(
-                        $_POST["nom"],
-                        $_POST["categorie"],
-                        $_POST["ht"],
-                        $_POST["tva"],
-                        $_POST["stock"],
-                        $_POST["image"],
-                    );
+                        // On INSTANCIE notre nouveau produit, en récupérant ce qu'on as mis dans le formulaire a l'aide de POST
+                        $produit = new Product(
+                            $_POST["nom"],
+                            $_POST["categorie"],
+                            $_POST["ht"],
+                            $_POST["tva"],
+                            $_POST["stock"],
+                            $_POST["image"]
+                        );
                 
-                    //var_dump($produit);
+                        //var_dump($produit);
+
+                        $valeur = $produit->valorisation();
+
                     }
                 }
   
@@ -76,6 +78,7 @@
                         <img class='photoCenter' style='width:100px;' style='height:100px;' src='$imageProfile'/>
                         <br>
                     ";
+
                     echo "
                         <div class='profileCenter'>
 
@@ -83,7 +86,7 @@
                             <p>Catégorie : $categorie </p>
                             <p>Prix HT : $ht € </p>
                             <p>TVA : $tva % </p>
-                            <p>Stock : $stock unités | valeur du stock : </p>
+                            <p>Stock : $stock unités | valeur du stock : $valeur </p>
                             
                         </div>
                     ";
